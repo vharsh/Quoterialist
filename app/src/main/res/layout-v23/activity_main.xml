@@ -14,41 +14,44 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:weightSum="1"
     tools:context="com.vharsh.quoterialist.MainActivity">
+
     <TextView
         android:id="@+id/openQ"
-        android:layout_width="52dp"
-        android:layout_height="48dp"
-        android:text="\“"
-        android:textSize="95sp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:text="“"
+        android:textSize="75sp" />
 
     <TextView
         android:id="@+id/lines"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="0.90"
         android:elegantTextHeight="true"
         android:fadeScrollbars="true"
         android:fontFamily="serif"
         android:includeFontPadding="true"
         android:scrollbarAlwaysDrawVerticalTrack="true"
-        android:text="@string/dummy_quote"
-        android:textSize="40sp" />
+        android:text="Beer will get you through times of no money better than money will get you through times of no beer."
+        android:textSize="30sp" />
+
     <TextView
         android:id="@+id/closeQ"
-        android:layout_width="52dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:layout_marginBottom="0mm"
-        android:text="\”"
-        android:textSize="95sp" />
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:text="”"
+        android:textSize="75sp" />
 
     <TextView
         android:id="@+id/speaker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:text="@string/dummy_author"
-        android:textSize="20sp" />
+        android:text="Mahatma Gandhi"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/buttons"
@@ -58,8 +61,8 @@
         android:clickable="true"
         android:contextClickable="true"
         android:elegantTextHeight="true"
-        android:onClick="OnClick"
         android:padding="5dp"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin" />
+
 </LinearLayout>
