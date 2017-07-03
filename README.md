@@ -1,2 +1,2 @@
 # Quoterialist
-My first Android app.
+My first and last Android app.
